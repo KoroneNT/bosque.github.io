@@ -4,18 +4,26 @@ body {
 }
 
 h1 {
+    color: white;
     font-family: "Orbitron", sans-serif;
     display: grid;
     place-content: center;
     font-size: 60px;
 }
 
+header img {
+    height: 100px;
+    width: 100px;
+    margin-left: 850px;
+}
+
 nav ul {
-    background-color: rgb(50, 47, 47);
+    background-color: rgb(181, 179, 179);
     border-radius: 10px;
     list-style-type: none;
     padding: 20px;
     margin: 0;
+
 }
 
 nav li {
@@ -23,12 +31,14 @@ nav li {
     display: inline;
     margin-right: 120px;
     margin-left: 120px;
+    color: white;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
 }
+
 
 nav a:hover {
     color: #007bff;
